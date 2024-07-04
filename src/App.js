@@ -47,13 +47,12 @@ const App = () => {
       <table>
         <thead>
           <tr>
-            // On clicking the Name column header, sort the roster by the 'Name' key
             <th onClick={() => sortBy(0)}>Name</th>
             <th onClick={() => sortBy(1)}>Class</th>
             <th onClick={() => sortBy(2)}>Rank</th>
-            <th onClick={() => sortBy(3)}>Raid Points</th>
-            <th onClick={() => sortBy(4)}>Rank Score</th>
-            <th onClick={() => sortBy(5)}>Score Rate</th>
+            <th onClick={() => sortBy(3)}>Effort Points (EP)</th>
+            <th onClick={() => sortBy(4)}>Gear Points (GP)</th>
+            <th onClick={() => sortBy(5)}>Priority (PR)</th>
           </tr>
         </thead>
         <tbody>
