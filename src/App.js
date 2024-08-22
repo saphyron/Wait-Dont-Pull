@@ -43,7 +43,7 @@ const App = () => {
   // Render the App component
   return (
     <div className="App">
-      <h1>Guild Roster (Updated 14:24 07/08/24)</h1>
+      <h1>Guild Roster (Updated 18:09 22/08/24)</h1>
       <table>
         <thead>
           <tr>
